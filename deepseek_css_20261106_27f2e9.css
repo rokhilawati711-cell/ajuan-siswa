@@ -1,0 +1,92 @@
+* { box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body {
+    background: #f0f4f8;
+    margin: 0;
+    padding: 30px 15px;
+    color: #333;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.container.wide { max-width: 1100px; }
+h2 {
+    text-align: center;
+    color: #2c5282;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 600;
+    font-size: 14px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 14px;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(49,130,206,0.15);
+}
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #3182ce;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn:hover { background: #2b6cb0; }
+.btn-link {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    color: #3182ce;
+    text-decoration: none;
+    font-size: 14px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+}
+th { background: #edf2f7; }
+.badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+.badge.menunggu { background: #ed8936; }
+.badge.disetujui { background: #38a169; }
+.badge.ditolak { background: #e53e3e; }
+.btn-sm {
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 4px;
+}
+.approve { background: #38a169; }
+.reject { background: #e53e3e; }
